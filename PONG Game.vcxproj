@@ -141,6 +141,11 @@
   <ItemGroup>
     <ClCompile Include="PONG Game.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ball.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="PlayerPaddle.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
