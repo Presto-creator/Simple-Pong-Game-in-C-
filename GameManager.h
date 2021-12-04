@@ -7,6 +7,7 @@
 #include <conio.h>
 #include "Ball.h"
 #include "PlayerPaddle.h"
+#include <Windows.h>
 
 class cGameManager
 {
@@ -255,6 +256,8 @@ public:
             Draw();
             Input();
             Logic();
+            cout.flush();
+            Sleep(0.0167);
         }
     }
 
